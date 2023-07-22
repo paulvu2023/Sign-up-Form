@@ -30,7 +30,8 @@ html, body {
     background-image: url('/images/pattern.jpeg');
     background-attachment: fixed;
     background-size: cover;
-    border-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
 }
 
 .left-side .blue-logo-container {
