@@ -73,6 +73,7 @@ fieldset {
     flex: 1;
     border: 0;
     min-width: 0;
+    gap: 1vw;
 }
 
 .left-col, .right-col {
