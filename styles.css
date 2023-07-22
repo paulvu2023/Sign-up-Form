@@ -137,6 +137,7 @@ input:valid {
     border: 2px solid rgb(17, 77, 156);
 }
 
-input:invalid {
-    border: 1px solid red;
+input.error {
+    outline: none;
+    border: 2px solid red;
 }
