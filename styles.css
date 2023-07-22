@@ -141,3 +141,17 @@ input.error {
     outline: none;
     border: 2px solid red;
 }
+
+@media (max-width: 549px) {
+    fieldset {
+        min-width: 0px;
+    }
+
+    form {
+        align-items: start;
+    }
+
+    .left-col, .right-col {
+        max-width: 180px;
+    }
+}
