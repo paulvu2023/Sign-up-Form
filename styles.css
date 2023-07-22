@@ -15,8 +15,12 @@ html, body {
 .left-side {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex: 1;
     width: 40%;
     height: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .right-side {
@@ -29,6 +33,21 @@ html, body {
     border-radius: 100px;
 }
 
+.left-side .logo-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
 .blue-logo {
     width: 20%;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+span {
+    color: rgb(29, 215, 221);
+    font-weight: 800;
 }
