@@ -105,13 +105,15 @@ label {
 }
   
 .button:hover {
-    transform: scale(1.05); 
+    transform: scale(1.1); 
 }
 
 form {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     height: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
