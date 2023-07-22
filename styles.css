@@ -69,14 +69,13 @@ span {
 
 fieldset {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
     border: 0;
     min-width: 0;
 }
 
-.row {
+.left-col, .right-col {
     display: flex;
-    flex: 1;
-    flex-direction: row;
+    flex-direction: column;
 }
