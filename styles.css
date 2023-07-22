@@ -43,6 +43,7 @@ html, body {
 .blue-logo {
     width: 30%;
     min-width: 100px;
+    max-width: 200px;
     margin-left: 20px;
 }
 
@@ -93,15 +94,15 @@ label {
 }
 
 .button {
-    background-color: black;
-    transition-duration: 0.4s;
     color: white;
-    border-radius: 12px;
+    background-color: black;
+    border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
   
 .button:hover {
-    background-color: darkblue;
-    color: white;
+    transform: scale(1.05);
 }
