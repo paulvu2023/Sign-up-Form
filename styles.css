@@ -125,3 +125,18 @@ form {
     height: 100%;
     align-items: center;
 }
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(17, 77, 156);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+input:valid {
+    border: 2px solid rgb(17, 77, 156);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
