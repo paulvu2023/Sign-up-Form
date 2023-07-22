@@ -72,7 +72,7 @@ span {
 fieldset {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    
     border: 0;
     min-width: 0;
     gap: 1vw;
@@ -104,6 +104,12 @@ label {
 }
   
 .button:hover {
-    transform: scale(1.05);
-    
+    transform: scale(1.05); 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
