@@ -85,8 +85,9 @@ fieldset {
 }
 
 legend {
-    font-size: 4vw;
+    font-size:calc(30px + 1.5vw);
     font-weight: 550;
+    padding-bottom: 50px;
 }
 
 label {
