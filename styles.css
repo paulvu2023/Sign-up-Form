@@ -19,8 +19,7 @@ html, body {
     justify-content: center;
     width: 40%;
     height: 100%;
-    padding-left: 5vw;
-    padding-right: 5vw;
+
     flex: 1;
 }
 
@@ -44,7 +43,7 @@ html, body {
 .blue-logo {
     width: 30%;
     min-width: 100px;
-    margin-left: -3vw;
+    
 }
 
 h3 {
@@ -81,6 +80,7 @@ fieldset {
 .left-col, .right-col {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 legend {
@@ -88,13 +88,17 @@ legend {
     font-weight: 550;
 }
 
+label {
+    margin: 5px;
+}
+
 .button {
     background-color: black;
     transition-duration: 0.4s;
     color: white;
     border-radius: 12px;
-    padding-top: .5vw;
-    padding-bottom: .5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
   
 .button:hover {
