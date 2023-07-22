@@ -72,9 +72,9 @@ span {
 fieldset {
     display: flex;
     flex-direction: row;
-    
     border: 0;
     min-width: 0;
+    padding: 0;
     gap: 1vw;
 }
 
@@ -112,4 +112,5 @@ form {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    margin: auto;
 }
