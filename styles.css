@@ -10,6 +10,7 @@ html, body {
     display: flex;
     flex: 1;
     height: 100%;
+    gap: 2vw;
 }
 
 .left-side {
@@ -65,4 +66,9 @@ span {
 
 .white-logo {
     width: 50%;
+}
+
+fieldset {
+    border: 0;
+    min-width: 0;
 }
