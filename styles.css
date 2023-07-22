@@ -43,7 +43,7 @@ html, body {
 .blue-logo {
     width: 30%;
     min-width: 100px;
-    
+    margin-left: 20px;
 }
 
 h3 {
