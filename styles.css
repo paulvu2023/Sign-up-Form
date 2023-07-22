@@ -43,6 +43,8 @@ html, body {
 
 .blue-logo {
     width: 30%;
+    min-width: 100px;
+    margin-left: -3vw;
 }
 
 h3 {
@@ -79,4 +81,23 @@ fieldset {
 .left-col, .right-col {
     display: flex;
     flex-direction: column;
+}
+
+legend {
+    font-size: 4vw;
+    font-weight: 550;
+}
+
+.button {
+    background-color: black;
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 12px;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+}
+  
+.button:hover {
+    background-color: darkblue;
+    color: white;
 }
