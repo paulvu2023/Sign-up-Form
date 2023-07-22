@@ -106,6 +106,7 @@ label {
     padding-bottom: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    border: none;
 }
   
 .button:hover {
