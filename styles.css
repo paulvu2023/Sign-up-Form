@@ -27,9 +27,9 @@ html, body {
     display: flex;
     width: 60%;
     height: 100%;
-}
-
-.pattern {
+    background-image: url('/images/pattern.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 100px;
 }
 
