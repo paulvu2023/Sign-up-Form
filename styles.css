@@ -92,6 +92,7 @@ legend {
     font-size:calc(30px + 1.5vw);
     font-weight: 550;
     padding-bottom: 50px;
+    font-weight: 550;
 }
 
 label {
@@ -100,6 +101,7 @@ label {
 
 .button {
     color: white;
+    font-size: 15px;
     background-color: black;
     border-radius: 4px;
     padding-top: 10px;
