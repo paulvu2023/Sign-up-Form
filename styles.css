@@ -27,7 +27,7 @@ html, body {
     display: flex;
     width: 60%;
     height: 100%;
-    background-image: url(https://images.pexels.com/photos/15848901/pexels-photo-15848901/free-photo-of-blue-abstract-pattern.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url("https://paulvu2023.github.io/Sign-up-Form/images/pattern.jpeg");
     background-attachment: fixed;
     background-size: cover;
     border-bottom-left-radius: 100px;
